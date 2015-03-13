@@ -1,0 +1,290 @@
+@font-face{
+font-family:'Gotham';
+ src:url(GOTHAM-ROUNDED-MEDIUM.TTF);
+ font-weight:500;
+}
+@font-face {
+    font-family: 'Museo';
+    src: url(Museo_700.otf);
+    font-weight: 700;
+}
+@font-face {
+    font-family: 'Museo';
+    src: url(Museo_500.otf);
+    font-weight: 500;
+}
+@font-face {
+    font-family: 'Museo';
+    src: url(Museo_300.otf);
+    font-weight: normal;
+}
+body {
+    background-color: #ECECEC;
+    font-family:Gotham;
+    font-weight: 500;
+}
+.Results {
+    padding: 20px 0px 20px 0px;
+}
+.boxinner {
+    padding-top: 50px;
+    padding-left: 240px;
+    width: 100%;
+    padding-right: 20px;
+}
+.formspac {
+    padding: 15px 30px;
+}
+.formspac label.control-label {
+    margin-bottom: 5px;
+    padding: 0;
+    margin-top: 7px;
+}
+.menu {
+    background: #292964;
+    padding: 20px 0px;
+    width: 70%
+}
+.circle {
+    width: 50px;
+    height: 50px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    font-size: 20px;
+    line-height: 48px;
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+}
+.circlecolor {
+    background: yellow;
+    color: black;
+}
+.circlecolorsame {
+    background: #111;
+    color: white;
+}
+.reports {
+    margin-top: 90px;
+    background: #fafafa;
+    border: 1px solid #cdd6e1;
+    padding: 6px 15px;
+}
+.align {
+    display: inline-block;
+    width: 100%;
+    margin: 0 auto;
+}
+.circletxt {
+    text-align: center;
+    margin: 10px 0 0;
+}
+.circletxtsame {
+    color: white;
+}
+.circletxtchange {
+    color: yellow;
+}
+label.col-lg-3.control-label.txt {
+    padding: 0px 0px 0px 0px;
+}
+.button {
+    padding: 20px 0px 20px;
+    background: #DFDFDF;
+    text-align: right;
+}
+a.back {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    color: white;
+    background: #bbbbbb;
+    padding: 10px 20px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    border-bottom-color:#888888;
+    border-bottom-width: 3px;
+}
+a.back+a.continue {
+    margin: 0 15px;
+}
+a.continue {
+    color: white;
+    background: #3790DF;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 10px 40px;
+    text-align: center;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    border-bottom-width: 3px;
+}
+form.form-horizontal.bg {
+    background: white;
+    border: 1px solid #D8D8D8;
+    width: 70%;
+}
+input.form-control.txt {
+    height: 35px;
+    vertical-align: middle;
+}
+h3.started {
+    color: #999999;
+    font-weight: 400;
+}
+p.account {
+    color: #999999;
+}
+.submenu {
+    background: #5aa0e0;
+    padding: 5px 0px 5px 5px;
+    width: 70%;
+}
+h3.thanku {
+    color: white;
+    padding: 0px;
+    margin: 2px;
+}
+p.reviewing {
+    color: white;
+}
+.notification {
+    backface: url(../bg-img/thankuicon.png) no-repeat;
+    width: 10px;
+    height: 10px;
+}
+.boxall {
+    padding-top: 50px;
+    padding-left: 240px;
+    padding-right: 20px;
+}
+select.newletter {
+    width: 150px;
+    height: 30px;
+}
+p.Results {
+   
+    font-size: 20px;
+    color: #afafaf;
+}
+.txtalign {
+    font-weight: 600;
+    font-size: 13px;
+    color: #afafaf;
+}
+/*--------Sapana--------*/
+
+.blueteam {
+    background-color: #5fa2dd;
+    height: 100px;
+}
+.team-members {
+    padding: 25px;
+    text-align: center;
+}
+.selectbtn {
+    background: #06d281;
+    color: white;
+    padding: 15px;
+}
+.viewbtn {
+    background: #4c0066;
+    color: white;
+    padding: 15px;
+}
+.redteam {
+    background-color: #dd705e;
+    height: 100px;
+}
+.panel.panel-danger.panel-colorful.bluetxt {
+    background: #4c0066;
+}
+.panel.panel-danger.panel-colorful.yellowtxt {
+    background: #ffd24d;
+}
+.panel.panel-danger.panel-colorful.pinktxt {
+    background: #ed213c;
+}
+/*--------Sapana--------*/
+
+button.btn.btn-primary {
+    padding: 6px 12px;
+    background-color: #06d281;
+    border-color: #06d281;
+}
+button.btn.btn-success {
+    padding: 6px 12px;
+    background-color: #4c0066;
+    border-color: #4c0066;
+}
+.widget-header.bg-primary1 {
+    background-color: #dd705e;
+}
+.panel-heading1 {
+    background-color: #330066!important;
+}
+h3.panel-title1 {
+    color: white;
+}
+h3.panel-title2 {
+    color: #3f91e2;
+}
+.campaignteambtn {
+    float: right;
+}
+.divplus>div+div {
+    margin-top: 5px;
+}
+#mainnav-menu-wrap {
+    border-right: 2px solid #E2E2E2;
+border-bottom: 2px solid #E2E2E2;
+}
+.panel-heading {
+    border-width: 0px;
+}
+.all-white .table {
+    width: 100%;
+    margin-bottom: 20px;
+    background: white;
+    border: 1px solid #E5E5E5;
+}
+.all-white .panel-body {
+    background: white;
+}
+.all-white .form-group {
+    margin-top: 20px;
+}
+li.pad-ver {
+  border-bottom: 2px solid #E2E2E2;
+border-top: 2px solid #E2E2E2;
+}
+.widget-body.newbody.text-center {
+    padding: 40px 15px 15px;
+}
+.mt10{
+    margin-top:10px;
+}
+.pad-ver-new {
+    padding: 5px 0px;
+}
+.title_name{
+    color:#999999;
+}
+.team_info{
+    color:#bbbbbb;
+}
+.bg_yellow{
+    background-color: #ffd24d;
+}
+.hd_bgcolor{
+    background-color: #22223c;
+}
+.hd_bgcolor a{
+    color:#ffd24d!important;
+}
+small.wz-desc.box-block {
+    opacity: 1;
+}
